@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T08:24:55.880Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="tAIiwHb0Tq6qTj_C7Rl9" version="17.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-13T08:26:23.487Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="-37IyggWA779AMO3eHYX" version="17.4.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2489" dy="1965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -467,10 +467,10 @@
         <mxCell id="7UqHb1-MVe2AxoYa3A6T-112" value="refObjType    文件夹、数据集、文档、版本、文档库" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7UqHb1-MVe2AxoYa3A6T-104">
           <mxGeometry y="104" width="290" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="7UqHb1-MVe2AxoYa3A6T-108" value="grantedPriv  List&lt;String&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7UqHb1-MVe2AxoYa3A6T-104">
+        <mxCell id="7UqHb1-MVe2AxoYa3A6T-108" value="grantedPriv  List&lt;String&gt;      READ, WRITE" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7UqHb1-MVe2AxoYa3A6T-104">
           <mxGeometry y="130" width="290" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="7UqHb1-MVe2AxoYa3A6T-111" value="revokedPriv  List&lt;String&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7UqHb1-MVe2AxoYa3A6T-104">
+        <mxCell id="7UqHb1-MVe2AxoYa3A6T-111" value="revokedPriv  List&lt;String&gt;      CHANGE,  DELETE" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7UqHb1-MVe2AxoYa3A6T-104">
           <mxGeometry y="156" width="290" height="26" as="geometry" />
         </mxCell>
         <mxCell id="7UqHb1-MVe2AxoYa3A6T-117" value="creator" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7UqHb1-MVe2AxoYa3A6T-104">
