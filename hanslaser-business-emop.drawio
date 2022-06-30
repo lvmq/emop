@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-30T10:01:02.968Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="O5iJyiy7QdQRHxbQufEM" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-30T10:10:38.639Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="rpkKnkTG1TT5VjiclY03" version="20.0.4" type="github">
   <diagram id="07fea595-8f29-1299-0266-81d95cde20df" name="Page-1">
     <mxGraphModel dx="1196" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
@@ -40,11 +40,18 @@
         <mxCell id="pHEKDqmlXUbcGVJNw_CC-234" value="Eplan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="880" y="170" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="pHEKDqmlXUbcGVJNw_CC-251" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.025;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pHEKDqmlXUbcGVJNw_CC-240" target="pHEKDqmlXUbcGVJNw_CC-241">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="897" y="414" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="pHEKDqmlXUbcGVJNw_CC-240" value="物料管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="390" width="120" height="60" as="geometry" />
+          <mxGeometry x="170" y="384" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pHEKDqmlXUbcGVJNw_CC-241" value="TC BOM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="710" y="400" width="120" height="60" as="geometry" />
+          <mxGeometry x="910" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pHEKDqmlXUbcGVJNw_CC-247" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -75,6 +82,9 @@
         </mxCell>
         <mxCell id="pHEKDqmlXUbcGVJNw_CC-250" value="1、CAD 工具调用物料管理创建物料对象，并返回图号、编码等信息至CAD工具；&lt;br&gt;2、CAD搭建BOM结构，保存回TC，并调用Dispatcher service 转换JT 保存回TC;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="250" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pHEKDqmlXUbcGVJNw_CC-252" value="1、创建物料保存回TC；监听TC对象创建，获取TC的uid,回写EMOP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="380" width="380" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
